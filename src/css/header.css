@@ -1,0 +1,23 @@
+header {
+    background: #4A90E2;
+    height: 64px;
+    width: 100%;
+}
+
+header .container {
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    font-size: 16pt;
+    font-family: 'Arial, sans-serif';
+    font-weight: bold;
+}
+
+header .logo, 
+header .link-perfil {
+    cursor: pointer;
+}

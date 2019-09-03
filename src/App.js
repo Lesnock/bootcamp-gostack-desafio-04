@@ -1,5 +1,17 @@
 import React from 'react'
 
+// Styles
+import './css/app.css'
+
+// Components
+import Header from './components/Header'
+import PostList from './components/PostList'
+
 export default function App () {
-    return <h1>Teste from inside</h1>
+    return (
+        <>
+            <Header></Header>
+            <PostList></PostList>
+        </>
+    )
 }

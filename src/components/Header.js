@@ -3,17 +3,16 @@ import React, { Component } from 'react'
 // Styles
 import '../css/header.css'
 
-// Components
-import Logo from './Logo'
-import LinkPerfil from './LinkPerfil'
+// Images
+import logo from '../images/logo.png'
 
 class Header extends Component {
     render () {
         return (
             <header>
                 <div className="container">
-                    <Logo></Logo>
-                    <LinkPerfil></LinkPerfil>
+                    <img src={logo} alt="Logo" className="logo"/>
+                    <span className="link-perfil">Meu perfil</span>
                 </div>
             </header>
         )
